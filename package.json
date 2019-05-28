@@ -1,10 +1,13 @@
 {
   "name": "fashion",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.3.0"
+  },
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/.bin/http-server -p $PORT ."
   },
   "keywords": [],
   "author": "",
